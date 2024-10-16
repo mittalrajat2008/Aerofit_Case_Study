@@ -27,4 +27,6 @@ Fitness: Self-rated fitness on a 1-to-5 scale, where 1 is the poor shape and 5 i
 Miles: The average number of miles the customer expects to walk/run each week
 
 
-For this project,  I have tried to predict the customer behaviour regarding 3 types of treadmills that are KP281, KP481 and KP781. What is the gender, marital status, age, education, miles, fitness, income and usage distribution for each product. I utilized countplots, histplots, pie charts and boxplots for data visualization. To assess correlation, I employed Heatmap. Also created Contingeny tables to predict the conditional and marginal probabilities so that, it would provide better insights to predict the purcahse pattern of the different customers.
+Approach Used
+
+For this project,  I have tried to predict the customer behaviour regarding 3 types of treadmills that are KP281, KP481 and KP781. What is the gender, marital status, age, education, miles, fitness, income and usage distribution for each product.I have done EDA like finding the data type of the columns, finding the shape of the dataset, found the number of missing values in each column, made use of boxplots to detect the outliers and also used np.clip() for clipping the data. I utilized countplots, histplots, pie charts and boxplots for data visualization. To assess correlation, I employed Heatmap. Also created Contingeny tables to predict the conditional and marginal probabilities so that, it would provide better insights to predict the purcahse pattern of the different customers.
